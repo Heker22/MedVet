@@ -244,7 +244,22 @@ text-align: center;
 }
 .footer{
 background-color: var(--footer-background);
+}
 
+.logo-footer{
+text-align: center;
+margin-left: 225px;
+border-bottom: 2px solid var(--title-color);
+}
+.footer-title{
+font-style: 24px;
+font-weight: 500;
+
+    
+}
+.footer-list{
+
+display: flex;
 
 
 }
