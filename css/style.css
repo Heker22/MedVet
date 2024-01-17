@@ -4,6 +4,7 @@
     --second-background-color: #FBFCFF;
     --footer-background: #535353;
     --text-color: #3A2E2E;
+    --footer-title-color:#FFFFFF;
 }
 
 ul {
@@ -195,71 +196,103 @@ body {
 }
 
 .work-wrap {
-display: flex;
-justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
-.team{
-background-color: var(--second-background-color);
-padding-top: 32px;
-padding-bottom: 64px
+
+.team {
+    background-color: var(--second-background-color);
+    padding-top: 32px;
+    padding-bottom: 64px
 }
-.team-title{
-font-size: 48px;
-font-weight: 600;
-margin-bottom: 18px;
-text-align: center;
+
+.team-title {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 18px;
+    text-align: center;
 }
-.team-word{
-color: var(--title-color);
+
+.team-word {
+    color: var(--title-color);
 }
-.team-line{
-width: 351px;
-height: 4px;
-margin: 0 auto;
-background-color: var(--title-color);
-margin-bottom: 40px;
+
+.team-line {
+    width: 351px;
+    height: 4px;
+    margin: 0 auto;
+    background-color: var(--title-color);
+    margin-bottom: 40px;
 }
-.team-list{
-display: flex;
-justify-content: space-between;
+
+.team-list {
+    display: flex;
+    justify-content: space-between;
 }
-.team-img{
-width: 380px;
+
+.team-img {
+    width: 380px;
 }
-.team-wrap{
-padding-top: 32px;
+
+.team-wrap {
+    padding-top: 32px;
 }
-.item-line{
+
+.item-line {
     width: 224px;
     height: 4px;
     background-color: var(--text-color);
     margin: 0 auto;
     margin-bottom: 32px;
 }
-.team-name{
-font-size: 32px;
-font-weight: 600;
-text-align: center;
+
+.team-name {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
 
 }
-.footer{
-background-color: var(--footer-background);
+
+.footer {
+    background-color: var(--footer-background);
+    padding-bottom: 73px;
+    padding-top: 32px;
 }
 
-.logo-footer{
-text-align: center;
-margin-left: 225px;
-border-bottom: 2px solid var(--title-color);
+.footer-logo{
+margin-bottom: 28px;
 }
+
+.footer-line {
+    width: 1120px;
+    height: 2px;
+    background-color: var(--title-color);
+    margin-bottom: 32px;
+
+}
+
 .footer-title{
-font-style: 24px;
+font-size: 24px;
 font-weight: 500;
-
-    
+color: var(--footer-title-color);
+margin-right: 160px;
+}
+.footer-item{
+display: flex;
+color: var(--footer-title-color);
+font-size: 20px;
+font-weight: 400;
+margin-top: 32px;
 }
 .footer-list{
+display: flex;    
+justify-content: space-between;
+}
+.footer-logo-wrap{
+margin-right: 22px;
 
-display: flex;
 
-
+}
+.footer-text{
+height: 58px;
 }
