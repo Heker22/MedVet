@@ -2,7 +2,7 @@
     --title-color: #6278B4;
     --background-color: #DDF9FF;
     --second-background-color: #FBFCFF;
-    ;
+    --footer-background: #535353;
     --text-color: #3A2E2E;
 }
 
@@ -240,5 +240,11 @@ padding-top: 32px;
 font-size: 32px;
 font-weight: 600;
 text-align: center;
+
+}
+.footer{
+background-color: var(--footer-background);
+
+
 
 }
